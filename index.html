@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+  <title> matte_genesis </title>
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <script>
+(function() {
+   'use strict';
+
+   var dbh,sto,num=800,temp=10000,scrolldelay=50;
+
+function init(){ 
+    dbh=document.body.offsetHeight;
+    pageScroll();
+ }
+
+function pageScroll() {
+    window.scrollBy(0,num);
+    temp+=num;
+if((temp>=dbh)||(temp<=0)){
+    num=-num;
+ }
+   sto=setTimeout(function(){pageScroll();},scrolldelay);
+ }
+   window.addEventListener?
+   window.addEventListener('load',init,false):
+   window.attachEvent('onload',init);
+   window.scrollTo(0,document.body.scrollHeight);
+})();
+timer = setInterval( function() {
+    
+    var randomColor = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+    
+    $('#color').css('backgroundColor', randomColor);
+    
+}, 500);
+</script>
+  <style>
+  #backpic {
+    position: absolute;
+    width: 100%;
+    height: 80000%;
+    left: 0;
+    top: 0;
+    z-index: 0;
+  }
+#text {
+	font-size: 18px;
+	position: fixed;
+	width: 90%;
+	top: 600px;
+	z-index: 1000;
+	right: 10px;
+	text-align: right;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	padding: 0px;
+}
+
+#scroll {
+	font-size: 22px;
+	position: absolute;
+	top: 40px;
+	z-index:1000;
+	left:80px;
+}
+
+p {
+	color: #FFF;
+	background-color: #000;
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: italic;
+	line-height: 20px;
+}
+
+	  
+#color { 
+    background-color: rgb(0,0,0); 
+    height: 100px;
+    width: 100px;
+  -webkit-transition: background-color 0.3s ease-out;  /* Saf3.2+, Chrome */
+     -moz-transition: background-color 0.3s ease-out;  /* FF4+ */
+      -ms-transition: background-color 0.3s ease-out;  /* IE10 */
+       -o-transition: background-color 0.3s ease-out;  /* Opera 10.5+ */
+	
+	html, body {
+		height: 100%;
+		width: 100%;
+	}
+  </style>
+  
+</head>
+<body>
+  <img id='backpic' src="media/crackscreen.jpg">
+  <div id="scroll">
+  	<p> scroll </p>
+	</div>
+  <div id="text">
+	  <p> matte black; to the average bit, <a href="02internetsocialstructure.html" target="_blank">the internet</a> is room temperature. </p>
+	<p> the sound is constant:: a sharp fluttering from the inefficient contrails of nearby data streams (a set of digital signals used for content transmission). the dull thuds and scrapes of IP addresses as they rest at each domain. the hollow pop signaling the genesis of a new site. and the hum. the omnipresent 50 Hz and 60 Hz hums are the frequencies at which electricity emanates through cyberspace - animating everything through its vibrations. but there is never an echo.</p>
+	  <p>there are millions of sites like this in cyberspace:: abandoned pages with intentions long discarded, now simply resting as a flat tombstone. there is no protocol for the termination of unused sites because there is no need. infinity has no clutter. this site was designed by multimedia artist Crystal Wood in early 2016, intended to be a catalogue of their work. the framework was largely in place, a cleverly efficient script for non-linear, non-hierarchical interaction with the site content. the content and stylesheet were mostly finished - a template uncannily matching the matte, burnished aesthetics of the hidden realm beneath the screen. Crystal Wood took their life later that year - head resting on their keyboard as they lost their charge. the site was never completed. </p>
+	<p>a poorly encoded data stream is inefficient. commonly this results in a loss of content during transmission, showering bits across the network along its path. weaker data streams can be absorbed by nearby stronger datastreams near the source or destination, erasing the weaker and corrupting the stronger. and there is the rare case of a misfired datastream. there is not consensus on the cause of this phenomenon, and it largely goes undetected - a misfired stream soaring infinitely with nothing in its path, or very rarely terminating at a null part of code or infrastructure.</p>
+	<p>20.09.2016 the Leipziger Barockorchester is performing JS Bach’s Orchestral Suites No. 1-4 as part of the Bayreuth Festival in Bayreuth, Bavaria. The festival is being broadcasted and streamed by BBC 4, with an estimated thousands of international listeners. Their servers massive and warm, the stream is a beauty in its power. Moments before the downbeat of Suite No. 2: 1. Ouverture, a listener’s stream in Oakland, CA goes <a href="03chargingg.html">silent.</a> </p>
+</div>
+<iframe width="100%" height="0" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/315995833%3Fsecret_token%3Ds-JzOVQ&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+</body>
+</html>

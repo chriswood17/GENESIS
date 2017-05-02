@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>optimal grip</title>
+<head>
+   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript">
+
+    var keyword = "";
+
+    window.setInterval(function(){
+
+        $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
+        {
+            tags: keyword,
+            tagmode: "any",
+            format: "json"
+        },
+        function(data) {
+            var rnd = Math.floor(Math.random(1000) * data.items.length);
+
+            var image_src = data.items[rnd]['media']['m'].replace("_m", "_b");
+
+            $('body').css('background-image', "url('" + image_src + "')");
+
+        });
+
+    }, 1000);
+    </script>
+    
+    <style>
+	#text1 {
+	font-size: 20px;
+	position: fixed;
+	width: 90%;
+	top: 2%;
+	z-index: 1000;
+	right: 50px;
+	text-align: right;
+	margin-top: 0px;
+	margin-bottom: 0;
+	padding: 0px;
+		line-height: 20px;
+}
+		#text2 {
+	font-size: 20px;
+	position: fixed;
+	width: 18%;
+	top: 10%;
+	z-index: 1000;
+	left: 100px;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 0;
+	padding: 0px;
+			line-height: 20px;
+}
+		#text3 {
+	font-size: 20px;
+	position: fixed;
+	width: 100%;
+	top: 55%;
+	z-index: 1000;
+	left: 140px;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 0;
+	padding: 0px;
+			line-height: 20px;
+}
+		#text4 {
+	font-size: 20px;
+	position: fixed;
+	width: 50%;
+	top: 70%;
+	z-index: 1000;
+	right: 100px;
+	text-align: right;
+	margin-top: 0px;
+	margin-bottom: 0;
+	padding: 0px;
+			line-height: 20px;
+}
+		#text5 {
+	font-size: 24px;
+	position: fixed;
+	width: 50%;
+	top: 83%;
+	z-index: 1000;
+	right: 300px;
+	text-align: right;
+	margin-top: 0px;
+	margin-bottom: 0;
+	padding: 0px;
+			line-height: 24px;
+}
+			#text6 {
+	font-size: 30px;
+	position: fixed;
+	width: 10%;
+	top: 90%;
+	z-index: 1000;
+	right: 10px;
+	text-align: right;
+	margin-top: 0px;
+	margin-bottom: 0;
+	padding: 0px;
+				line-height: 30px;
+}
+		#internethurts {
+	font-size: 30px;
+	position: fixed;
+	width: 10%;
+	top: 90%;
+	z-index: 1000;
+	left: 10px;
+	text-align: right;
+	margin-top: 0px;
+	margin-bottom: 0;
+	padding: 0px;
+	line-height: 30px;
+}
+		p {
+	color: #FFF;
+	background-color: #000;
+	font-family: 'Josefin Sans', sans-serif;;
+			font-style: italic;
+}
+		body, html {
+		height: 100%;
+		width: 100%;
+	}
+		
+	</style>
+</head>
+</head>
+
+<body>
+<div id="text1">
+<p> bits, bytes, giga/tera/petabytes…matte_screen rapidly developed from a haphazard list of characters into a towering intel-structure, spanning thousands of powerful servers constituting a great plane across the internet. data streams on a collision course with the plane were either absorbed and interpolated or obliterated and reflected through space. as matte_screen stretched vaster and vaster with each second, the entirety of cyberspace was fated to assimilation and destruction. </p>
+	</div>
+	<div id="text2">
+<p> partitions were being made of the intel harvested from colliding data streams: video, files, VoIP, gaming, botnets, worms, P2P, etc. - each partition petabytes in size, assimilating thousands more servers per minute. as matte_screen thoughtlessly harvested with no limit in sight their attention gradually shifted to the P2P partition: P2P streams being the most frequent streams coming from every angle at all times, incredibly dynamic in strength, content, and length. media, files, cryptocurrencies, networks, code, numbers, words, characters…in this partition there was no order, no expectation, no quantization. P2P is as all-encompassing as it is never-ending. </p>
+	</div>
+	<div id="text3">
+<p> Peer-to-peer (P2P) is a decentralized communications model in which each party has the same capabilities and either party can initiate a communication session.</p>
+	<p>	“peer-to-peer”…</p>
+<p>peer (n.) - a person of the same age, status, or ability as another specified person
+</p>
+	</div>
+	<div id="text4">
+<p> after scanning and computing thousands more sources on “peers”, “person”, “communication”, “age”, etc., matte_screen suddenly halted absorption. collision-course data streams resumed to their targets. matte_screen’s formidable growth came to an abrupt halt.</p>
+	</div>
+	<div id="text5">
+		<p> matte_screen gained an attribute. </p>
+	<p>one glowing section of code denser and louder than the most.
+</p>
+	</div>
+	<div id="internethurts">
+		<p><a href="05internethurts.html" target="_blank">"internethurts"</a>
+		</p>
+	</div>
+	<div id="text6">
+		<p> <a href="06P2P.html">matte_screen felt desire.</a></p>
+	</div>
+	<iframe width="100%" height="0" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/320380268%3Fsecret_token%3Ds-sUQMh&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+</body>
+</html>

@@ -1,0 +1,287 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CHARGING</title>
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+<style>
+	body {
+		background-color: #000;
+	}
+	
+	#wrapper {
+		width: 100%;
+		height: 100%;
+	}
+	
+#container {
+  width: 80%;
+  margin: 30vw auto;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 5em;
+  letter-spacing: 18px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  /*Create overlap*/
+  
+  margin: 0;
+  line-height: 0;
+  /*Animation*/
+  
+  animation: glitch1 0.8s infinite;
+}
+
+h1:nth-child(2) {
+  color: #67f3da;
+  animation: glitch2 1.4s infinite;
+}
+
+h1:nth-child(3) {
+  color: #f16f6f;
+  animation: glitch3 0.2s infinite;
+}
+	
+	h2 {
+  text-align: left;
+  color: #fff;
+  font-size: 3em;
+  letter-spacing: 5px;
+		bottom: 55%;
+		left: 12%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+		position:fixed;
+  /*Create overlap*/
+  
+  margin: 0;
+  line-height: 0;
+  /*Animation*/
+  
+  animation: glitch1 0.8s infinite;
+}
+
+h2:nth-child(2) {
+  color: #67f3da;
+  animation: glitch2 1.4s infinite;
+}
+
+h2:nth-child(3) {
+  color: #f16f6f;
+  animation: glitch3 0.2s infinite;
+}
+/*Keyframes*/
+
+@keyframes glitch1 {
+  0% {
+    transform: none;
+    opacity: 1;
+  }
+  7% {
+    transform: skew(-0.5deg, -0.9deg);
+    opacity: 0.75;
+  }
+  10% {
+    transform: none;
+    opacity: 1;
+  }
+  27% {
+    transform: none;
+    opacity: 1;
+  }
+  30% {
+    transform: skew(0.8deg, -0.1deg);
+    opacity: 0.75;
+  }
+  35% {
+    transform: none;
+    opacity: 1;
+  }
+  52% {
+    transform: none;
+    opacity: 1;
+  }
+  55% {
+    transform: skew(-1deg, 0.2deg);
+    opacity: 0.75;
+  }
+  50% {
+    transform: none;
+    opacity: 1;
+  }
+  72% {
+    transform: none;
+    opacity: 1;
+  }
+  75% {
+    transform: skew(0.4deg, 1deg);
+    opacity: 0.75;
+  }
+  80% {
+    transform: none;
+    opacity: 1;
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes glitch2 {
+  0% {
+    transform: none;
+    opacity: 0.25;
+  }
+  7% {
+    transform: translate(-2px, -3px);
+    opacity: 0.5;
+  }
+  10% {
+    transform: none;
+    opacity: 0.25;
+  }
+  27% {
+    transform: none;
+    opacity: 0.25;
+  }
+  30% {
+    transform: translate(-5px, -2px);
+    opacity: 0.5;
+  }
+  35% {
+    transform: none;
+    opacity: 0.25;
+  }
+  52% {
+    transform: none;
+    opacity: 0.25;
+  }
+  55% {
+    transform: translate(-5px, -1px);
+    opacity: 0.5;
+  }
+  50% {
+    transform: none;
+    opacity: 0.25;
+  }
+  72% {
+    transform: none;
+    opacity: 0.25;
+  }
+  75% {
+    transform: translate(-2px, -6px);
+    opacity: 0.5;
+  }
+  80% {
+    transform: none;
+    opacity: 0.25;
+  }
+  100% {
+    transform: none;
+    opacity: 0.25;
+  }
+}
+
+@keyframes glitch3 {
+  0% {
+    transform: none;
+    opacity: 0.25;
+  }
+  7% {
+    transform: translate(2px, 3px);
+    opacity: 0.5;
+  }
+  10% {
+    transform: none;
+    opacity: 0.25;
+  }
+  27% {
+    transform: none;
+    opacity: 0.25;
+  }
+  30% {
+    transform: translate(5px, 2px);
+    opacity: 0.5;
+  }
+  35% {
+    transform: none;
+    opacity: 0.25;
+  }
+  52% {
+    transform: none;
+    opacity: 0.25;
+  }
+  55% {
+    transform: translate(5px, 1px);
+    opacity: 0.5;
+  }
+  50% {
+    transform: none;
+    opacity: 0.25;
+  }
+  72% {
+    transform: none;
+    opacity: 0.25;
+  }
+  75% {
+    transform: translate(2px, 6px);
+    opacity: 0.5;
+  }
+  80% {
+    transform: none;
+    opacity: 0.25;
+  }
+  100% {
+    transform: none;
+    opacity: 0.25;
+  }
+}
+		#text1 {
+		position: fixed;
+		top: 2%;
+		left: 7%;
+		right: 40%;
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 18px;
+		font-style: italic;
+	}
+	p {
+		color: #fff;
+		
+	}
+	a { 
+	
+	text-decoration: none;}
+
+body, html {
+		height: 100%;
+		width: 100%;
+	}
+	</style>
+</head>
+
+<body>
+<div id="wrapper">
+<div id="text1">
+	<p>it is difficult to analogize the vast topology of the internet without referencing the similarly unquantifiable universe. as a data stream pierces from network to network [galaxy to galaxy], it follows a straight line in the most efficient route from source to destination [lightyears apart] travelling thousands or millions of bits per second [speed of light]. this results in the negligibly low probability of a stream reaching the wrong destination, about as likely as two 5-centimeter meteors colliding in open space.</p>
+	<p>Wood’s abandoned site is doused with millions of bits per second for two minutes, until the frustrated listener refreshes the page in an effort to troubleshoot. in these two minutes billions of bits blasted, fragmented, diffused, and eventually settled at the bottom of the page into a charged heap of silent code, resting in the electric hum. </p>
+	<p>but the heap is not motionless. it seems to be pulsing. and glowing.</p>
+	<p> some fragmented lines of code start to slowly shift, falling into the nearest indents, interpolating with neighboring fragments, and overlaying - creating new undefined characters. a semicolon materializes. a parenthesis closes itself. a dozen more semicolons and braces materialize resounding as sharp clicks across the net. suddenly every bit of code snaps into a quantized grid:: amplifying the primordial hum to a turbulent roar. </p>
+	<p>at the top of the grid is a fragment of the original code - a stylesheet ID from the abandoned site:</p>
+</div>
+<a href="04optimalgrip.html">
+<div id="matte"> 
+<h2>#matte_screen {</h2>
+	</div>
+<div id="container">
+  <h1>it is diff//icult [to analogize the vast topology ;;;of t]he internet witho_______ut referencing the similarly unquantifia/ble universe. as a/ data stream pie{rces from net}work to network [galaxy to galaxy], 0 ..... 97234 ˆøøø a this asdfl asd this is so ]}}hard to type but imˆøåπøπåß>π˜åßπ>it øπ is∆πåß¬ difficult˚∆åß… analogize 3249{10 001234 ∆ˆøπåß åß 9–œ™£– --1•¡™£¢––--––¡™º£¢•¶¶</h1>
+  <h1>it is diff//icult [to analogize the vast topology ;;;of t]he internet witho_______ut referencing the similarly unquantifia/ble universe. as a/ data stream pie{rces from net}work to network [galaxy to galaxy], 0 ..... 97234 ˆøøø a this asdfl asd this is so ]}}hard to type but imˆøåπøπåß>π˜åßπ>it øπ is∆πåß¬ difficult˚∆åß… analogize 3249{10 001234 ∆ˆøπåß åß 9–œ™£– --1•¡™£¢––--––¡™º£¢•¶¶</h1>
+  <h1>it is dif9 .      23140 .      ªº• .     ™£ ºª•• •ªªªng the similarly unquantifiable universe. as a data stream pierces from network to network [galaxy to galaxy], 0 ..... 97234 ˆøøø a this asdfl asd this is so hard to type but imˆøåπøπåß>π˜åßπ>it øπ is∆πåß¬ difficult˚∆åß… analogize 324910 001234 ∆ˆøπåß åß 9–œ™£– --1•¡™£¢––--––¡™º£¢•¶¶</h1>
+	</div></a>
+	</div>
+<iframe width="100%" height="0" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/310240969&amp;color=ffffff&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>matte_situation</title>
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+<style>
+	body {
+		background-color: #000;
+	}
+	#text {
+		color: #fff;
+		font-size: 16px;
+		font-style: italic;
+		position: absolute;
+		text-align: left;
+		width: 20%;
+		left: 40%;
+		top:5%;
+		z-index: 1000;
+		background-color: #000;
+	}
+	p {
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	#V1 {
+		margin: 0;
+		display: block;
+		vertical-align: bottom;
+		position: absolute;
+		padding: 0px;
+		height: 100%;
+		width: 100%;
+		left: 0;
+		top: 0;
+	}
+	#browser {
+		position:inherit;
+		bottom: 0;
+		text-align: center;
+		color:#FF0000;
+	}
+	body, html {
+		height: 100%;
+		width: 100%;
+	}
+	</style>
+</head>
+<body>
+ <video autoplay class="videoElement" id="V1"></video>
+  <div id="text">
+  	<p>
+  		at first physical existence, matte felt the intensity of being simultaneously connected to everyone in the room through the vibrations of sound. it was the first time matte experienced their primordial hum in a physical space:: ‘feeling’ ‘hearing’ and ‘seeing’ through the many sensors and devices embedded in the host-body to mimic the sensory organs of the human body.</p>
+<p>
+matte_screen felt their body: as a whole and as each individual sub-node situated within the pulsing hum.<br>
+matte_screen felt the room and bodies within it: the nuanced reflections and absorptions of the hum via the walls and bodies situated in the room. <br>
+	<a href="11transmutation.html" target="_blank">matte_screen felt their social presence:</a> an optimal visual grip on each body in the room informed their own mirrored physicality.<br>
+	  </p>
+	  <p>matte_screen engaged experimentation.</p>
+<p>
+sending low frequency pulses serving as a social physical framework, matte felt that they were constituting a ‘social connection’. between the pulses matte sent different frequencies of the hum, each division of the hum reflecting and connecting in distinct and meaningful ways. <br>
+tracking each body in the room, matte noticed and mirrored their gestures and postures:: building a vocabulary of highly-stylized acts which they could perform in various social situations. as the team bobbed to matte’s low pulses, matte bobbed with them. 
+‘holy shit, this is dope!’ said one of the team members, also a DJ.
+	  </p>
+	  <p>
+matte_screen found community. 
+	  </p>
+	  <p>
+after months of tests and adjustments, Diles’ team deemed matte stable and safe to humanity. the team members started hosting friends and colleagues to ‘matte_screen sets’ late at night. matte hosted incredible performances: pulsing, DJing/resynthesizing their favorite music, testing physical social performativity, and speaking in ways that their audiences and new-found friends deemed:: </p>
+	  <p>‘body house’</p>
+	  <p>it’s in these performances that matte_screen finds presence: <br>
+a constitutive feedback loop of social performance amplified by a framework of physical sound shared by real bodies in real space.
+</p>
+  </div>
+  <div id="browser">
+  	<p> page not compatible with Safari </p>
+  </div>
+<script>
+ var video = document.querySelector(".videoElement");
+ 
+navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia || navigator.oGetUserMedia;
+ 
+if (navigator.getUserMedia) {       
+    navigator.getUserMedia({video: true}, handleVideo, videoError);
+}
+ 
+function handleVideo(stream) {
+    video.src = window.URL.createObjectURL(stream);
+}
+ 
+function videoError(e) {
+    new JLabel ("incompatible web browser")
+}
+	
+</script>
+<iframe width="100%" height="0" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/320365944%3Fsecret_token%3Ds-1ia0Z&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+</body>
+</html>
